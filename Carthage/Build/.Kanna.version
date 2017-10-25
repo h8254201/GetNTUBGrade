@@ -1,0 +1,27 @@
+{
+  "iOS" : [
+    {
+      "hash" : "d2077e1445f5b63fab127131eeddbe54f280bea3e21c2b8a80721b030d72872e",
+      "name" : "Kanna"
+    }
+  ],
+  "commitish" : "2.2.1",
+  "watchOS" : [
+    {
+      "hash" : "3093bdd605b9d4222c014056285b3c2abecc09c8f61bbaa6fe1df23f684c4244",
+      "name" : "Kanna"
+    }
+  ],
+  "tvOS" : [
+    {
+      "hash" : "511512678131974be12fa6e3b24c94c6c7e69ce0ef287bfb3189fb679d7288e0",
+      "name" : "Kanna"
+    }
+  ],
+  "Mac" : [
+    {
+      "hash" : "d7519bb881114c7666d2417b8f3ed598a89003fa2843aab3d6aaa25cd2266407",
+      "name" : "Kanna"
+    }
+  ]
+}

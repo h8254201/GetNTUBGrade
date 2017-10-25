@@ -8,12 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		EA88355F1F04C9ED0019C4E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA88355E1F04C9ED0019C4E4 /* AppDelegate.swift */; };
-		EA8835611F04C9ED0019C4E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8835601F04C9ED0019C4E4 /* ViewController.swift */; };
+		EA8835611F04C9ED0019C4E4 /* GetGradeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8835601F04C9ED0019C4E4 /* GetGradeController.swift */; };
 		EA8835641F04C9ED0019C4E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA8835621F04C9ED0019C4E4 /* Main.storyboard */; };
 		EA8835661F04C9ED0019C4E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA8835651F04C9ED0019C4E4 /* Assets.xcassets */; };
 		EA8835691F04C9ED0019C4E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA8835671F04C9ED0019C4E4 /* LaunchScreen.storyboard */; };
 		EA8835741F04C9ED0019C4E4 /* getntubgradeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8835731F04C9ED0019C4E4 /* getntubgradeTests.swift */; };
 		EA88357F1F04C9ED0019C4E4 /* getntubgradeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA88357E1F04C9ED0019C4E4 /* getntubgradeUITests.swift */; };
+		EA88358D1F04CE190019C4E4 /* UrlSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA88358C1F04CE190019C4E4 /* UrlSession.swift */; };
+		EA88358F1F04CE200019C4E4 /* LoadActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA88358E1F04CE200019C4E4 /* LoadActivity.swift */; };
+		EA8835911F04CE310019C4E4 /* ViewControllerBaseDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8835901F04CE310019C4E4 /* ViewControllerBaseDelegate.swift */; };
+		EA8835931F04CE3B0019C4E4 /* BasePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8835921F04CE3B0019C4E4 /* BasePresenter.swift */; };
+		EAEAE7591F04D07800D648F6 /* UrlSessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEAE7581F04D07800D648F6 /* UrlSessionDelegate.swift */; };
+		EAEAE75C1F04D0B200D648F6 /* GetGradePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEAE75B1F04D0B200D648F6 /* GetGradePresenter.swift */; };
+		EAEAE77E1F04DB0F00D648F6 /* Kanna.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAEAE77D1F04DB0F00D648F6 /* Kanna.framework */; };
+		EAEAE7821F04DE6F00D648F6 /* Grade.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEAE7811F04DE6F00D648F6 /* Grade.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +44,7 @@
 /* Begin PBXFileReference section */
 		EA88355B1F04C9ED0019C4E4 /* getntubgrade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = getntubgrade.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA88355E1F04C9ED0019C4E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EA8835601F04C9ED0019C4E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EA8835601F04C9ED0019C4E4 /* GetGradeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetGradeController.swift; sourceTree = "<group>"; };
 		EA8835631F04C9ED0019C4E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EA8835651F04C9ED0019C4E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA8835681F04C9ED0019C4E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +55,15 @@
 		EA88357A1F04C9ED0019C4E4 /* getntubgradeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = getntubgradeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA88357E1F04C9ED0019C4E4 /* getntubgradeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getntubgradeUITests.swift; sourceTree = "<group>"; };
 		EA8835801F04C9ED0019C4E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA88358C1F04CE190019C4E4 /* UrlSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UrlSession.swift; sourceTree = "<group>"; };
+		EA88358E1F04CE200019C4E4 /* LoadActivity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadActivity.swift; sourceTree = "<group>"; };
+		EA8835901F04CE310019C4E4 /* ViewControllerBaseDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerBaseDelegate.swift; sourceTree = "<group>"; };
+		EA8835921F04CE3B0019C4E4 /* BasePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasePresenter.swift; sourceTree = "<group>"; };
+		EAEAE7581F04D07800D648F6 /* UrlSessionDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UrlSessionDelegate.swift; sourceTree = "<group>"; };
+		EAEAE75B1F04D0B200D648F6 /* GetGradePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetGradePresenter.swift; sourceTree = "<group>"; };
+		EAEAE77B1F04DB0400D648F6 /* iOS */ = {isa = PBXFileReference; lastKnownFileType = folder; name = iOS; path = Carthage/Build/iOS; sourceTree = "<group>"; };
+		EAEAE77D1F04DB0F00D648F6 /* Kanna.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kanna.framework; path = Carthage/Build/iOS/Kanna.framework; sourceTree = "<group>"; };
+		EAEAE7811F04DE6F00D648F6 /* Grade.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Grade.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAEAE77E1F04DB0F00D648F6 /* Kanna.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +99,7 @@
 				EA8835721F04C9ED0019C4E4 /* getntubgradeTests */,
 				EA88357D1F04C9ED0019C4E4 /* getntubgradeUITests */,
 				EA88355C1F04C9ED0019C4E4 /* Products */,
+				EAEAE77A1F04DB0400D648F6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,7 +117,10 @@
 			isa = PBXGroup;
 			children = (
 				EA88355E1F04C9ED0019C4E4 /* AppDelegate.swift */,
-				EA8835601F04C9ED0019C4E4 /* ViewController.swift */,
+				EA8835961F04CEE30019C4E4 /* Helper */,
+				EA8835941F04CE3E0019C4E4 /* ViewController */,
+				EA8835951F04CED20019C4E4 /* Presenter */,
+				EAEAE7801F04DE6300D648F6 /* Model */,
 				EA8835621F04C9ED0019C4E4 /* Main.storyboard */,
 				EA8835651F04C9ED0019C4E4 /* Assets.xcassets */,
 				EA8835671F04C9ED0019C4E4 /* LaunchScreen.storyboard */,
@@ -125,6 +147,67 @@
 			path = getntubgradeUITests;
 			sourceTree = "<group>";
 		};
+		EA8835941F04CE3E0019C4E4 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EA8835971F04CF300019C4E4 /* Base */,
+				EA8835601F04C9ED0019C4E4 /* GetGradeController.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		EA8835951F04CED20019C4E4 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				EAEAE75A1F04D08C00D648F6 /* Base */,
+				EAEAE75B1F04D0B200D648F6 /* GetGradePresenter.swift */,
+			);
+			name = Presenter;
+			sourceTree = "<group>";
+		};
+		EA8835961F04CEE30019C4E4 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				EAEAE7581F04D07800D648F6 /* UrlSessionDelegate.swift */,
+				EA88358C1F04CE190019C4E4 /* UrlSession.swift */,
+				EA88358E1F04CE200019C4E4 /* LoadActivity.swift */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		EA8835971F04CF300019C4E4 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				EA8835901F04CE310019C4E4 /* ViewControllerBaseDelegate.swift */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		EAEAE75A1F04D08C00D648F6 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				EA8835921F04CE3B0019C4E4 /* BasePresenter.swift */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		EAEAE77A1F04DB0400D648F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EAEAE77D1F04DB0F00D648F6 /* Kanna.framework */,
+				EAEAE77B1F04DB0400D648F6 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EAEAE7801F04DE6300D648F6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EAEAE7811F04DE6F00D648F6 /* Grade.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,6 +218,7 @@
 				EA8835571F04C9ED0019C4E4 /* Sources */,
 				EA8835581F04C9ED0019C4E4 /* Frameworks */,
 				EA8835591F04C9ED0019C4E4 /* Resources */,
+				EAEAE77F1F04DB1B00D648F6 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -257,12 +341,36 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		EAEAE77F1F04DB1B00D648F6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Kanna.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EA8835571F04C9ED0019C4E4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA8835611F04C9ED0019C4E4 /* ViewController.swift in Sources */,
+				EA8835911F04CE310019C4E4 /* ViewControllerBaseDelegate.swift in Sources */,
+				EA8835931F04CE3B0019C4E4 /* BasePresenter.swift in Sources */,
+				EAEAE7821F04DE6F00D648F6 /* Grade.swift in Sources */,
+				EA88358D1F04CE190019C4E4 /* UrlSession.swift in Sources */,
+				EA8835611F04C9ED0019C4E4 /* GetGradeController.swift in Sources */,
+				EA88358F1F04CE200019C4E4 /* LoadActivity.swift in Sources */,
+				EAEAE75C1F04D0B200D648F6 /* GetGradePresenter.swift in Sources */,
+				EAEAE7591F04D07800D648F6 /* UrlSessionDelegate.swift in Sources */,
 				EA88355F1F04C9ED0019C4E4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,7 +526,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7K333GRG33;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
 				INFOPLIST_FILE = getntubgrade/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tony.getntubgrade;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -431,7 +545,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7K333GRG33;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
 				INFOPLIST_FILE = getntubgrade/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tony.getntubgrade;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -516,6 +636,7 @@
 				EA8835851F04C9ED0019C4E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA8835861F04C9ED0019C4E4 /* Build configuration list for PBXNativeTarget "getntubgradeTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +645,7 @@
 				EA8835881F04C9ED0019C4E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA8835891F04C9ED0019C4E4 /* Build configuration list for PBXNativeTarget "getntubgradeUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +654,7 @@
 				EA88358B1F04C9ED0019C4E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
